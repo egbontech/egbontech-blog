@@ -1,0 +1,252 @@
+@media only screen and (max-width: 1200px) {
+  .posts {
+    width: 95%;
+  }
+  .about-me-section .about-me {
+    width: 95%;
+  }
+  .tech-stacks-section .tech-stacks {
+    width: 80%;
+  }
+  .projects-section .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+  .services-section .services {
+    width: 95%;
+  }
+  .contact-section {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .navbar-container .links ul a {
+    margin: 0px;
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  .landing-page .texts-image {
+    flex-direction: column-reverse;
+  }
+  .landing-page {
+    height: auto;
+    width: 100%;
+  }
+  .landing-page .texts-image .texts p:nth-child(1),
+  .landing-page .texts-image .texts p:nth-child(2),
+  .landing-page .texts-image .texts p:nth-child(3) {
+    text-align: center;
+  }
+  .landing-page .texts-image .texts .links {
+    justify-content: center;
+  }
+  .landing-page .texts-image .texts p:nth-child(1) {
+    font-size: 2.5rem;
+  }
+  .landing-page .texts-image .texts p:nth-child(2) {
+    font-size: 2.5rem;
+  }
+  .landing-page .texts-image .image img {
+    width: 50vw;
+    margin-top: 50px;
+  }
+  .posts {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-me-section .about-me {
+    grid-template-columns: 1fr;
+    width: 85%;
+  }
+  .about-me-section .about-me .image {
+    height: 300px;
+    width: 300px;
+  }
+  .about-me-section .about-me .details h2 {
+    text-align: center;
+  }
+  .about-me-section {
+    height: auto;
+  }
+  .about-me-section .about-me .details h2 {
+    margin-top: 20px;
+  }
+  .about-me-section .about-me .details p {
+    line-height: 1.6rem;
+    text-align: justify;
+  }
+  .services-section .services {
+    grid-template-columns: 1fr 1fr;
+  }
+  .post-view-section h1{
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .navbar-container .blog-link {
+    display: none;
+  }
+  .navbar-container .links {
+    display: none;
+  }
+  .active-mobile-menu {
+    transform: translateX(0%);
+  }
+  .hamburger-container {
+    display: block;
+  }
+  .projects-section .projects {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+  .contact-section .info-container {
+    grid-template-columns: 1fr;
+  }
+  .post-view-section{
+    width: 88vw;
+  }
+  .post-view-section .blog-image{
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .landing-page .texts-image .texts p:nth-child(2) {
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+  .landing-page .texts-image .image img {
+    width: 70vw;
+  }
+  .landing-page .texts-image .texts p:nth-child(1) {
+    font-size: 1.8rem;
+  }
+  .landing-page .texts-image .texts p:nth-child(3) {
+    font-size: 1rem;
+  }
+  .posts {
+    grid-template-columns: 1fr;
+  }
+  .posts .card .image {
+    height: 200px;
+  }
+  .about-me-section .about-me .image {
+    width: 100%;
+    height: auto;
+  }
+  .about-me-section .about-me .details p {
+    font-size: 0.85rem;
+  }
+  .tech-stacks-section .tech-stacks {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+  }
+  .tech-stacks-section .tech-stacks .stack .image {
+    width: 35vw;
+    height: 150px;
+    margin: auto;
+  }
+  .tech-stacks-section .tech-stacks .stack {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .projects-section .projects .card .image {
+    height: 230px;
+  }
+  .projects-section .projects .card .details .body {
+    line-height: 1.6rem;
+  }
+  .services-section .services {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+  .courses-section .courses .course h1 {
+    font-size: 1.5rem;
+  }
+  .courses-section .courses .course img {
+    width: 80vw;
+  }
+  .contact-section {
+    width: 90vw;
+  }
+  .contact-section .form-container .input-container {
+    width: 80%;
+  }
+  .contact-section .info-container .info .i {
+    font-size: 2rem;
+  }
+  .contact-section .info-container .info p:nth-child(2) {
+    font-size: 1.2rem;
+  }
+  .contact-section .info-container .info p:nth-child(3) {
+    font-size: 0.8rem;
+  }
+  .posts-section .select-category-container {
+    width: 90vw;
+  }
+  .posts-section .select-category-container .select-box {
+    width: 100%;
+  }
+  .posts-section .select-category-container .select-options {
+    width: 100%;
+  }
+  .post-view-section h1{
+    font-size: 1.8rem;
+  }
+  .post-view-section .author-timestamp  .details  p{
+    font-size: .9rem;
+  }
+  .post-view-section .author-timestamp  .details .timestamp span{
+    font-size:.7rem
+  }
+  .post-view-section .author-timestamp .image{
+    width:40px;
+    height:40px
+  }
+  .post-view-section .author-timestamp{
+    grid-template-columns: 40px 1fr;  
+  }
+  .post-view-section .blog-image{
+    height:200px
+  }
+  .post-view-section .post-body p{
+    font-size:.95rem;
+    line-height:2rem
+  }
+  
+  .post-view-section .comments-container h2{
+    font-size: 1.3rem;
+  }
+  .post-view-section
+  .comments-container
+  .comments-list
+  .comment
+  .details
+  .username-timestamp
+  p:nth-child(1){
+    font-size: .9rem;
+  }
+  .post-view-section
+  .comments-container
+  .comments-list
+  .comment
+  .details
+  .comment-body{
+    font-size:.85rem;
+    line-height: 1.4rem;
+  }
+  .post-view-section
+  .comments-container
+  .comments-list
+  .comment
+  .details
+  .username-timestamp
+  p:nth-child(2){
+    font-size:.65rem
+  }
+  .footer{
+    padding-top: 50px;
+  }
+  .navbar-container .navbar {
+    width: 95%;
+  }
+}
