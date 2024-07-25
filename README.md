@@ -10,5 +10,6 @@ This is my personal blog application built using Next.js for the frontend and La
 ### Technologies Used
 - Next.js
 - Laravel
+- TypeScript
 - MySQL
 - React
